@@ -139,9 +139,27 @@
     column-gap: 20px;
     row-gap: 30px;
     margin-bottom: 210px;
+}
 
+/* flower lover style section-2 */
+.flower-lover {
+    margin-bottom: 130px;
+}
+.flower-lover-parent {
+    gap: 50px;
+    align-items: center;
+}
+.flower-lover-title {
+    max-width: 540px;
+}
+.flower-lover-title ul {
+    padding-left: 40px;
+}
+.flower-lover-title ul li {
+    margin-top: 20px;  
 }
 @media screen and (max-width: 576px){
+    /* header style */
     .nav-item {
         display: none;
     }
@@ -164,12 +182,37 @@
     .banner-title {
         margin: 16px;
     }
-   .banner-container h1 {
+   .banner-container h1,.plants-container-title h2 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 13px;
     }
-    .banner-container p {
+    .banner-container p,.plants-container-title p {
     font-size: 0.875rem;
+    }
+
+    /*  plants style section-1 */
+    .plants {
+    margin-top: 52px;
+    }
+    .plants-container-title p {
+        max-width: 336px;
+    }
+    .plants-container-title {
+        margin-bottom: 28px;
+    }
+    .plants-card-parent {
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 28px;
+    }
+    .plants-card-parent {
+        margin: 0 14px;
+    }
+    .flower-name-card {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    }
+    .flower-price {
+    font-size: 1rem;
     }
 }
