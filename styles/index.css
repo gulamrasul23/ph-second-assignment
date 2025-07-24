@@ -17,7 +17,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /* Common Style */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -53,7 +55,9 @@
     font-weight: 700;
     border: none;
 }
+
 /* ---Header style */
+
 /* Navbar style */
 
 .navbar {
@@ -81,6 +85,7 @@
 }
 
 /* Banner Container */
+
 .banner {
     margin-top: 120px;
 }
@@ -100,10 +105,11 @@
     margin-top: 106px;
     display: block;
 }
+
 /* plants style */
+
 .plants {
     margin-top: 120px;
-
 }
 .plants-container-title {
     text-align: center;
@@ -142,6 +148,7 @@
 }
 
 /* flower lover style section-2 */
+
 .flower-lover {
     margin-bottom: 130px;
 }
@@ -167,7 +174,6 @@
     position: absolute;
     top: -130px;
     right: -85px;
-    
 }
 @keyframes rotateimage {
     0%{ 
@@ -179,6 +185,7 @@
 }
 
 /* deals style section-3 */
+
 .deals-title {
     margin-bottom: 120px;
     text-align: center;
@@ -193,7 +200,6 @@
     flex-direction: column;
     gap: 30px;
     width: 32%;
-    
 }
 .deals {
     margin-bottom: 120px;
@@ -204,7 +210,7 @@
     display: block;
 }
 .deals-bgc {
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     border-radius: 14px;
     text-align: center;
     color: white;
@@ -216,7 +222,6 @@
 }
 .deals-bgc1 {
     background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/deal-bloom.png);
-    
 }
 .deals-bgc2 {
     background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/deal-ana.png);
@@ -233,13 +238,48 @@
 u {
     margin-top: 19px;
 }
+
+/* Join style section-4 */
+
+.join {
+    background-image: url(/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.join-parent {
+    padding: 200px 0;
+}
+.join-title {
+    text-align: center;
+}
+.join-title h2 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 23px;
+}
+.join-content {
+    justify-content: center;
+}
+.join-content input {
+    padding: 16px ;
+    width: 550px;
+    font-size: 16px;
+    border: none;
+}
+.join-btn {
+    color:white;
+    padding: 19px 53.5px;
+    background-color: #E95A08;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
 @media screen and (max-width: 576px){
-    /* common style */
-    .max-width-small-device {
-        max-width: 361px;
-        margin: 0 auto;
-    }
+
     /* header style */
+
     .nav-item {
         display: none;
     }
@@ -257,7 +297,7 @@ u {
         margin-top: 0;
     }
     .banner {
-    margin-top: 30px;
+        margin-top: 30px;
     }
     .banner-title {
         margin: 16px;
@@ -265,22 +305,24 @@ u {
    .banner-container h1,
    .plants-container-title h2,
    .flower-lover-title h2,
-   .deals-title h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 13px;
+   .deals-title h2,
+   .join-title h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 13px;
     }
     .banner-container p,
     .plants-container-title p,
     .flower-lover-title ul,
     .deals-title p {
     /* font-size: 0.875rem; */
-    font-size: 1rem;
+        font-size: 1rem;
     }
 
     /*  plants style section-1 */
+
     .plants {
-    margin-top: 52px;
+        margin-top: 52px;
     }
     .plants-container-title p,
     .deals-title p {
@@ -298,13 +340,15 @@ u {
         margin: 0 14px;
     }
     .flower-name-card {
-    font-size: 1rem;
-    margin-bottom: 10px;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
     .flower-price {
-    font-size: 1rem;
+        font-size: 1rem;
     }
+
     /* flower lover style section-2 */
+
     .trusted-img,.lover {
         display: none;
     }
@@ -322,12 +366,27 @@ u {
     }
     .deals-items,
     .deals-bgc3 {
-    width: 100%;
+        width: 100%;
     }
     .deals-bgc3 {
-    font-size: 1.25rem;
+        font-size: 1.25rem;
     }
     .deals-title {
-    margin-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* join style section-4  */
+
+    .join-title h2 {
+        margin-bottom: 23px;
+    }
+    .join-parent {
+        padding: 110px 36px 65px;
+    }
+    .join-btn {
+        padding: 19px 12px;
+    }
+    .deals {
+    margin-bottom: 40px;
     }
 }
