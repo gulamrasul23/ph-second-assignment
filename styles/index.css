@@ -221,13 +221,13 @@
     background-size: cover;
 }
 .deals-bgc1 {
-    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/deal-bloom.png);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/deal-bloom.png);
 }
 .deals-bgc2 {
-    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/deal-ana.png);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/deal-ana.png);
 }
 .deals-bgc3 {
-    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/deal-zabo.png);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/deal-zabo.png);
     font-size: 2.5rem;
     width: 66%;
     background-position: center;
@@ -242,7 +242,7 @@ u {
 /* Join style section-4 */
 
 .join {
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
